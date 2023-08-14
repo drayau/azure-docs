@@ -63,7 +63,7 @@ Any secure deployment requires some measure of network access control. The goal 
 > [!NOTE]
 > Storage Firewalls are covered in the [Azure storage security overview](../../storage/blobs/security-recommendations.md) article
 
-#### Network security rules (NSGs)
+#### Network security groups (NSGs)
 
 If you need basic network level access control (based on IP address and the TCP or UDP protocols), you can use Network Security Groups (NSGs). An NSG is a basic, stateful, packet filtering firewall, and it enables you to control access based on a [5-tuple](https://www.techopedia.com/definition/28190/5-tuple). NSGs include functionality to simplify management and reduce the chances of configuration mistakes:
 
